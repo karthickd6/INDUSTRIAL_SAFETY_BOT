@@ -9,3 +9,5 @@ matplotlib>=1.4.3
 pandas>=0.19
 dash-bootstrap-components>=0.10.1
 tensorflow==2.1
+joblib==0.15.1
+jsonify==0.5
