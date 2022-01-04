@@ -20,8 +20,8 @@ lemmatizer = WordNetLemmatizer()
 # In[7]:
 
 
-nltk.download('wordnet')
-nltk.download('punkt')
+#nltk.download('wordnet')
+#nltk.download('punkt')
 
 
 # In[2]:
