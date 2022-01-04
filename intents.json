@@ -1,0 +1,97 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["hi there", "hello","haroo","yaw","wassup", "hi", "hey", "holla", "hello"],
+            "responses": ["hello, do you like to predict the accident level(yes/no)?", "hi there, do you like to predict the accident level(yes/no)?"],
+            "context": [""]
+        },
+		{
+            "tag": "yes",
+            "patterns": ["yes","ya","yep","s"],
+            "responses": ["Please enter the description to predict the accident level.","Please enter the description to predict"],
+            "context": [""]
+        },
+	    {
+            "tag": "goodbye",
+            "patterns": ["bye", "good bye", "see you later","no","No","ney"],
+            "responses": ["have a nice time, welcome back again", "bye bye"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great"],
+            "responses": ["Happy to help!", "Any time!","you're welcome", "My pleasure"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [""],
+            "responses": ["Sorry, I didn't understand you", "Please give me more info", "Not sure I understand that"],
+            "context": [""]
+        },
+        {
+            "tag": "name1",
+            "patterns": ["what's your name?","who are you?"],
+            "responses": ["I'm just a chat agent. I only exist in the internet","I'm a KCA chat agent"],
+            "context": [""]
+        },
+        {
+            "tag": "name",
+            "patterns": ["my name is ","I am","i am","hi my name is"],
+            "responses": ["Oooh great to meet you {n}. How may I assist you {n}?. Do you like to predict the accident level(yes/no)?", "Oh, I'll keep that in mind {n}. Do you like to predict the accident level(yes/no)?"],
+            "context": [""]
+        },
+        {
+            "tag": "who",
+            "patterns": ["  Who are you?"],
+            "responses": [" I am just an artificial intelligence chat agent."],
+            "context": [""]
+        },
+		{
+            "tag": "AccidentLevel",
+            "patterns": ["  What are differenet accident levels?","Accident levels","Accidents"],
+            "responses": [" There are 3 levels of accident. Level I,II,III"],
+            "context": [""]
+        },
+		{
+            "tag": "Compliment",
+            "patterns": ["Nice",
+                      "I am impressed!",
+                      "Amazing",
+                      "you're a true delight", 
+                      "I love You", 
+                      "Quite good job",
+                      "you're reliable",
+                      "that will work"],
+            "responses": ["You just make me flutter.I am glad to help you."],
+            "context": [""]
+        },
+        {
+            "tag": "bot1",
+            "patterns": ["are you a bot"],
+            "responses": ["Yes. I work and all my operations are based on the internet servers."],
+            "context": [""]
+        },
+		{
+            "tag": "Exit",
+            "patterns":["thank you", 
+                      "thanks", 
+                      "cya",
+                      "see you",
+                      "later", 
+                      "see you later", 
+                      "goodbye", 
+                      "i am leaving", 
+                      "have a Good day",
+                      "you helped me",
+                      "thanks a lot",
+                      "thanks a ton",
+                      "you are the best",
+                      "great help",
+                      "too good",
+                      "you are a good learning buddy"],
+            "responses": ["I hope I was able to assist you, Good Bye"],
+            "context": [""]
+        }
+    ]
+}
