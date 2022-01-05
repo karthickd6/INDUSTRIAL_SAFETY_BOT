@@ -10,3 +10,4 @@ pandas>=0.19
 dash-bootstrap-components>=0.10.1
 joblib==0.15.1
 jsonify==0.5
+nltk==3.0.0
